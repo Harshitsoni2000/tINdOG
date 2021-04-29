@@ -1,0 +1,192 @@
+body {
+  font-family: 'Ubuntu';
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1, h2 {
+  text-shadow: 0.3125rem 0.3125rem 0 rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 8% auto 5% auto;
+}
+
+p {
+  font-size: 1rem;
+  color: #8f8f8f;
+  width: 80%;
+  margin-bottom: 5%;
+  margin: auto;
+  line-height: 1.5rem;
+}
+
+/* --------------------HEADINGS-------------------- */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* --------------------CONTAINER-FLUID-------------------- */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* --------------------DOWNLOAD BUTTON-------------------- */
+.download-btn {
+  margin: 5% 5% 0 0;
+  box-shadow: 0.3125rem 0.3125rem 0 rgba(0,0,0,0.1);
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+/* COLORED SECTIONS */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* --------------------TITLE-------------------- */
+#title .container-fluid{  /* the element having class .container-fluid which is child of parent id #title */
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  border-radius: 10%;
+  box-shadow: 0.625rem 0.625rem 0.3125rem rgba(0,0,0,0.1);
+  position: absolute;
+  left: 6.25rem;
+}
+
+/* --------------------FEATURES-------------------- */
+#features {
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+  /* HERE z-index is not necessary since the features section is positioned and bbelow the title section, so it will be on top anyway. */
+}
+
+.feature-item {
+  padding: 5%;
+}
+
+.features-i {
+  color: #ef8172;
+}
+
+.features-i:hover {
+  color: #ff4c68;
+}
+
+/* --------------------TESTIMONIALS-------------------- */
+#testimonials {
+  font-size: 3rem;
+  padding-top: 4%;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 2rem;
+}
+
+.carousel-item {
+  padding: 1% 15%;
+}
+
+.carousel-indicators li {
+  box-shadow: 3px 3px 5px;
+  border-width: 0;
+}
+
+/* --------------------PRESS-------------------- */
+.press-logo {
+  width: 19%;
+  margin-left: 4%;
+}
+
+/* --------------------PRICING-------------------- */
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card-body {
+  padding-top: 5%;
+}
+
+.card-footer {
+  border: none;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.text-muted{
+  font-size: 1.5rem;
+}
+
+/* --------------------CTA-------------------- */
+
+
+/* --------------------FOOTER-------------------- */
+.footer-btn {
+  padding: 1%;
+}
+
+.footer-btn:hover {
+  color: #8f8f8f;
+}
+
+.container-fluid p {
+  font-size: 1.2rem;
+}
+
+/* --------------------MEDIA QUERIES-------------------- */
+@media (max-width: 1150px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-container {
+    padding: 7% 10%;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    margin-top: 10%;
+  }
+
+  #cta {
+    padding: 8% 10%;
+  }
+}
