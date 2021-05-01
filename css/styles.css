@@ -176,6 +176,9 @@ p {
     text-align: center;
   }
 
+  #title .container-fluid{  /* the element having class .container-fluid which is child of parent id #title */
+    text-align: center;
+  }
   .title-container {
     padding: 7% 10%;
   }
